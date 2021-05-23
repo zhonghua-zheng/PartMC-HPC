@@ -33,6 +33,11 @@ Author: `Dr. Zhonghua Zheng <https://zzheng93.github.io/>`_
    page/software_installation/partmc_mosaic_installation.md
    page/software_installation/partmc_mosaic_mcm_installation.md
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Run Simulations
+
+   page/run_simulations/multiple_scenarios_with_scheduler.md
 
 .. Indices and tables
 .. ==================
