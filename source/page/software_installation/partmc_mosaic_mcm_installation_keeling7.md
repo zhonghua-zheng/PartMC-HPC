@@ -43,15 +43,18 @@ It takes ~30 mins.
 
 ## build PartMC-MOSAIC-MCM
 
+step 1: set up 
+
 ```bash
 $ export NETCDF_HOME=/sw/netcdf4-4.7.4-gnu-9.3.0
 $ cd ~/MCM-PartMC-MOSAIC/PartMC
+$ export NETCDF_HOME=/sw/netcdf4-4.7.4-gnu-9.3.0
 $ mkdir build
 $ cd build
 $ ccmake ..
 ```
 
-step 3: First, press "c". Then press "e", and type the following options (use the paths you got from step 1):
+step 2: First, press "c". Then press "e", and type the following options (use the paths you got from step 1):
 
 ```
 CMAKE_BUILD_TYPE: RELEASE
@@ -74,9 +77,9 @@ MOSAIC_LIB (using your MOSAIC-MCM path):
 /data/keeling/a/zzheng25/MCM-PartMC-MOSAIC/MOSAIC-MCM/libmosaic.a
 ```
 
-step 4: press "c", then "c" again, and "g"
+step 3: press "c", then "c" again, and "g"
 
-step 5: compile and make sure you have all the test cases passed, except for "test 48" and "test 50"
+step 4: compile and make sure you have all the test cases passed, except for "test 48" and "test 50"
 
 ```bash
 make

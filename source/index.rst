@@ -31,6 +31,7 @@ Author: `Dr. Zhonghua Zheng <https://zzheng93.github.io/>`_
    :caption: Software Installation
 
    page/software_installation/partmc_mosaic_installation.md
+   page/software_installation/partmc_mosaic_installation_keeling7.md
    page/software_installation/partmc_mosaic_mcm_installation.md
    page/software_installation/partmc_mosaic_mcm_installation_keeling7.md
 
