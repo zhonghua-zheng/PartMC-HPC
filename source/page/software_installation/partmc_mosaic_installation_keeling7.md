@@ -55,7 +55,7 @@ step 1: download PartMC and set up
 
 ```bash
 $ cd your_path
-$ module load git
+$ module load git # you may skip this if the command below works
 $ git clone git@github.com:compdyn/partmc.git
 $ cd partmc
 $ mkdir build
