@@ -4,6 +4,10 @@ Zhonghua Zheng (zhonghua.zheng@outlook.com)
 
 Last update: 2021/05/23
 
+
+
+Note: If you turn mosaic off, you can’t have "do_optical" setup in the ".spec" file.
+
 ## Introduction
 
 Here we would run multiple scenarios using NCSA's Scheduler
