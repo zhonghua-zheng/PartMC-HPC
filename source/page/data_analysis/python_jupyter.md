@@ -36,6 +36,10 @@ jupyter notebook --port=8880 --no-browser --ip=`hostname -i`
 Note: if the command from "echo" doesn't work. Please use the command below as a replacement
 ```bash
 echo "ssh -t -t $USER@cc-login.campuscluster.illinois.edu -L 8880:localhost:8880 ssh `hostname` -L 8880:localhost:8880"
+
+# a reference for UCAR's HPC
+echo "ssh -N -L 8880:`hostname`:8880 $USER@`hostname`.ucar.edu"
+jupyter notebook --port=8880 --no-browser --ip=`hostname`
 ```
 
 **step 2: launch a new terminal, copy and paste the command printed by the "echo" command, and log in**
