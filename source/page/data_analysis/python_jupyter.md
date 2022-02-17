@@ -42,6 +42,15 @@ echo "ssh -N -L 8880:`hostname`:8880 $USER@`hostname`.ucar.edu"
 jupyter notebook --port=8880 --no-browser --ip=`hostname`
 ```
 
+Note: if you are using **keeling**:
+
+```bash
+source activate
+conda activate partmc
+echo "ssh -N -L 8880:127.0.0.1:8880 $USER@keeling.earth.illinois.edu"
+jupyter notebook --port=8880 --no-browser --ip=127.0.0.1
+```
+
 **step 2: launch a new terminal, copy and paste the command printed by the "echo" command, and log in**
 
 **step 3: open your browse (e.g., Google Chrome), type `https://localhost:8880`**
