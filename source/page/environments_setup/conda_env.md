@@ -43,7 +43,7 @@ $ source .bashrc
 # assume we want to create an environment named "partmc", with Python version 3.7 
 
 # we only need to create the environment once
-$ conda env create -n partmc python=3.7
+$ conda create -n partmc python=3.7
 
 # activate this conda environment 
 # we would do this everytime 
